@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.App {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+:root {
+  --primary-color: white;
+  --secondary-color: black;
+  --tertiary-color: #1d4ed8;
+}
+
+.main-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 600px;
+  flex-direction: column;
+}
+.header {
+  color: var(--secondary-color);
+  font-size: xx-large;
+  font-weight: bolder;
+}
+span {
+  color: var(--tertiary-color);
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-input {
+  height: 7vh;
+  width: 500px;
+  margin: 1rem;
+  border: solid var(--tertiary-color) 0.05rem;
+  padding-left: 1rem;
+  font-weight: bold;
+  font-family: Montserrat;
+}
+
+.input-btn {
+  margin: auto;
+  margin-right: 1rem;
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+  height: 7vh;
+  width: 80px;
+  cursor: pointer;
+  border: none;
+}
+
+hr {
+  color: var(--primary-color);
+  width: 400px;
+}
+
+.todo-list-container {
+  font-size: larger;
+}
+
+.todo-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0rem 1rem;
+  margin-top: 1rem;
+  padding: 0rem 1rem;
+  border: var(--tertiary-color) solid 0.05rem;
+  border-radius: 1rem;
+}
+
+.delete-btn {
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  margin-right: 0;
+  padding: 0;
+  border-radius: 50%;
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+  border: none;
+}
